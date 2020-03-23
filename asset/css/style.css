@@ -1,0 +1,47 @@
+/*Day-2*/
+.body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+}
+.jumbotron {
+height:100vh;
+background-color: aliceblue;
+}
+
+.topBar {
+    display: block;
+    position: fixed;
+    padding: 10px;
+    margin: 5px;
+    height:60px;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: blanchedalmond;
+}
+.topBar-btn {
+    float:right;
+    display: flex;
+    flex-flow: column;
+    height:50px;
+    width:50px;
+    margin: 4px;
+    padding:2px;
+    background-color: blue;
+    border:3px solid whitesmoke;
+    border-radius: 10px;
+    
+}
+.menuList {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 150px;
+}
+.listName {
+    width: 150px;
+    letter-spacing: 10px;
+    word-spacing: 4px;
+    font-size: medium;
+    text-decoration-style: none;
+}
