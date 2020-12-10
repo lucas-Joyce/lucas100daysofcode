@@ -1,0 +1,31 @@
+body {
+    background: #545454;
+}
+.column {
+    float:left;
+    width: 50%;
+    padding: 25px;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #545454;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+.btn.active {
+    background-color: #f6a206ec;
+    color: #f60606
+}
+h2 {
+    float: left;
+    padding: 5px 25px 5px 10px;
+}
